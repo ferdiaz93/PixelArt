@@ -165,7 +165,6 @@ var nombreColores = [
 
 /// EVENTO PARA PINTAR EN LA GRILLA
   var $divPixelGrilla = $('#grilla-pixeles div');
-
   $($divPixelGrilla).mousedown(pintarPixel);
 
   function pintarPixel() {
